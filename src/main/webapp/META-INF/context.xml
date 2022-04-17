@@ -5,7 +5,7 @@
 		auth="Container" 
 		type="javax.sql.DataSource"
 		driverClassName="oracle.jdbc.driver.OracleDriver"
-		url="jdbc:oracle:thin:@localhost:1521:xe"
+		url="jdbc:oracle:thin:@129.154.49.116:1521:xe"
 		username="hr"
 		password="hr"
 		factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
