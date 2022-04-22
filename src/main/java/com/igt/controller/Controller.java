@@ -43,6 +43,7 @@ public class Controller extends HttpServlet {
 					throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		doProcess(request, response);
+		System.out.println("바뀌나요?");
 	}
 	public void doProcess(
 			HttpServletRequest request, HttpServletResponse response) 
