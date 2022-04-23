@@ -13,10 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name="ajaxController", urlPatterns="*.ajax")
 public class AjaxController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	//dfjiosdjfiosdjifojdsiojfioddjfifsdjiofsdjisdfosfjiojo
+	//dfjiosdjfiosdjifojdsiojfioddj
 	
 	public void init() throws ServletException {
-		
+		//wodjwjdwdjwidw
 		ServletContext sc = getServletContext();
 		String uploadDir = sc.getInitParameter("uploadDir");
 		String realPath = sc.getRealPath(uploadDir);
@@ -34,7 +34,7 @@ public class AjaxController extends HttpServlet {
 	public void doAjax(
 			HttpServletRequest request, HttpServletResponse response) 
 					throws ServletException, IOException {
-		
+		//diwhwidhwdwdwd
 		AjaxProcess ajaxAction = null;
 		String command = request.getRequestURI();
 		command = command.substring(request.getContextPath().length());	
@@ -58,7 +58,7 @@ public class AjaxController extends HttpServlet {
 		
 		
 	}
-		
+		//wodjwdiwhdwidwd
 	@Override
 	public void doGet(
 			HttpServletRequest request, HttpServletResponse response) 
@@ -66,12 +66,12 @@ public class AjaxController extends HttpServlet {
 		
 		doAjax(request, response);
 	}
-	
+	//dwidhiwdhwiodjwd
 	@Override
 	public void doPost(
 			HttpServletRequest request, HttpServletResponse response) 
 					throws ServletException, IOException {
-		
+		//dwihdiwdhwidd
 		doAjax(request, response);
 	}
 }
