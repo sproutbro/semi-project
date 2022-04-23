@@ -16,7 +16,7 @@ public class AjaxController extends HttpServlet {
 	//dfjiosdjfiosdjifojdsiojfioddjfifsdjiofsdjisdfosfjiojo
 	
 	public void init() throws ServletException {
-		
+		//dfjoidsjifosjiosdfjifdosfsjio
 		ServletContext sc = getServletContext();
 		String uploadDir = sc.getInitParameter("uploadDir");
 		String realPath = sc.getRealPath(uploadDir);
