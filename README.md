@@ -1,7 +1,5 @@
 # semi-project
 
-국비 교육 과정 1차 프로젝트
-
 FRONT JSP
 
 BACK servlet
